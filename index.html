@@ -5,33 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fantasy Music ♫</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <nav>
+        <a href="index.html" class="logo">Fantasy Music ♫</a>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="pages/productos.html">Productos</a></li>
+            <li><a href="pages/contacto.html">Contacto</a></li>
+            <li><a href="pages/carrito.html">Carrito</a></li>
+        </ul>
+    </nav>
     <main>
-        <h1>Fantasy Music</h1>
-        <div>
-            <h2>Productos destacados</h2>
-            <p>Haga click sobre el álbum que le interese para escucharlo!</p>
-            <div>
-                <img src="rsc/Evanescence - Fallen/album cover.jpg" alt="" width="200" id="portada1">
-                <audio play src="rsc/Evanescence - Fallen/music.mp3" id="musica1"></audio>
+        <h1>Productos destacados</h1>
+        <p>Mueva el cursor sobre el álbum que le interese para escuchar una canción!</p>
+        <section class="albums">
+            <article>
+                <img src="rsc/Evanescence/fallen.jpg" alt="" width="200" id="portada1">
+                <audio preload="auto" src="rsc/Evanescence/fallen.mp3" id="musica1"></audio>
                 <p><b>Evanescence: Fallen</b> <br>$2000 </p>
-                <button>Agregar al carrito</button>
-            </div>
-            <div>
-                <img src="rsc/Katy Perry - Teenage Dream/cover.jpg" alt="" width="200" id="portada2">
-                <audio src="rsc/Katy Perry - Teenage Dream/music.mp3" id="musica2"></audio>
-                <p><b>Katy Perry: Teenage Dream</b> <br>$2000 </p>
-                <button>Agregar al carrito</button>
-            </div>
-            <div>
-                <img src="rsc/Lady Gaga - Chromatica/album cover.jpg" alt="" width="200" id="portada3">
-                <audio src="rsc/Lady Gaga - Chromatica/music.mp3" id="musica3"></audio>
-                <p><b>Lady Gaga: Chromatica</b> <br>$2000 </p>
-                <button>Agregar al carrito</button>
-            </div>
-        </div>
+                <button type="submit">Agregar al carrito</button>
+            </article>
+            <article>
+                <img src="rsc/Katy Perry/teenage-dream.jpg" alt="" width="200" id="portada2">
+                <audio preload="auto" src="rsc/Katy Perry/teenage-dream.mp3" id="musica2"></audio>
+                <p><b>Katy Perry: Teenage Dream</b> <br>$2000</p>
+                <button type="submit">Agregar al carrito</button>
+            </article>
+            <article>
+                <img src="rsc/Lady Gaga/chromatica.jpg" alt="" width="200" id="portada3">
+                <audio preload="auto" src="rsc/Lady Gaga/chromatica.mp3" id="musica3"></audio>
+                <p><b>Lady Gaga: Chromatica</b> <br>$2000</p>
+                <button type="submit">Agregar al carrito</button>
+            </article>
+            <article>
+                <img src="rsc/Dua Lipa/future-nostalgia.jpg" alt="" width="200" id="portada4">
+                <audio preload="auto" src="rsc/Dua Lipa/future-nostalgia.mp3"></audio>
+                <p><b>Dua Lipa: Future Nostalgia</b> <br>$2500</p>
+                <button type="submit">Agregar al carrito</button>
+            </article>
+        </section>
     </main>
+    <footer>
+        <div>
+            <ul>
+                <li><b>Menú</b></li>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="pages/productos.html">Productos</a></li>
+                <li><a href="pages/contacto.html">Contacto</a></li>
+                <li><a href="pages/carrito.html">Carrito</a></li>
+            </ul>
+            <ul>
+                <li><b>Contacto</b></li>
+                <li>Whatsapp: +54341234567</li>
+                <li>Email: fantasy_music_arg@gmail.com</li>
+                <li>Dirección: Bv. Oroño 123, Rosario</li>
+            </ul>
+        </div>
+        <p>Made by Priscila.jpg © This is NOT a real store. All the content used here ir for programming practice purposes only</p>
+    </footer>
     <script src="js/index.js"></script>
 </body>
 </html>
